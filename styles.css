@@ -1,4 +1,29 @@
 .body{
-    background-image: url(images/back.jpg);
+    background-image: url(images/first.jpg);
     background-size: 100%;
+    background-position:center top = 50%;
+    background-repeat: no-repeat;
+}
+#pick {
+    border:#ff0303, thick, solid;
+}
+@font-face {
+    font-family: Square_Meal; /* Имя шрифта */
+    src: url(fonts/Square_Meal_RUS_by_Slavchansky.ttf); /* Путь к файлу со шрифтом */
+   }
+p {
+    font-family: Square_Meal;
+    color: #efc357;
+   }
+div {
+    font-family: Square_Meal;
+    color: #26fa9c;
+    }
+#vids {
+    margin-top: 50px; 
+    background-image: url(images/vid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }

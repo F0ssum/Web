@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: Square_Meal; /* Имя шрифта */
+    src: url(fonts/Square_Meal_RUS_by_Slavchansky.ttf); /* Путь к файлу со шрифтом */
+   }
+.modal{
+    display: flex;
+    z-index: 1055;
+    width: 500px;
+    height: 200px;
+    padding: 1rem;
+    margin: 0.5rem;
+    color: white;
+    background: white;
+    border-color: black;
+    border-width: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+}
+    .shadow{
+   box-shadow: 0,1, rgba(0, 0, 0, 0.075);
+}
+.close{
+    text-align: right;
+    padding: .25em .25em;
+}
+.modalHeader{
+    color:rgba(40, 40, 255, 0.726);
+    text-align: top; 
+}
+.modalBody{
+    text-align:bottom;
+    margin: top 20rem;
+}
+
+#mail{
+    color: rgba(7, 4, 4, 0.952);
+}
+#pass{
+    color: rgba(7, 4, 4, 0.952);
+    text-align: left;
+    padding: top 10rem, ;
+}
+.password{
+    text-align: center;
+}
+.email{
+    margin: top 1em; left: auto;
+    text-align: center;
+}
